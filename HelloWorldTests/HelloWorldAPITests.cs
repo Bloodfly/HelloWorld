@@ -65,7 +65,7 @@ namespace HelloWorld.Tests
         [TestMethod]
         public void PrintGreeting_CustomWithEncryption()
         {
-            /* Encrypted output is indeterministic so we'll just run the method, but since we 
+            /* Encrypted output is indeterministic so we'll just run the method, and since we 
              * have included error handling in our code our test will work regardless; otherwise
              * if there was any kind of error the test would fail. */
             HelloWorldAPI api = new HelloWorldAPI();
@@ -147,7 +147,7 @@ namespace HelloWorld.Tests
         public void StoreData_File_UnauthorizedAccess()
         {
             /* Note - This unauthorized access test method will fail if run under
-             * an adminstrator or higher elevated user. So, run them unprivileged. */
+             * an adminstrator or higher elevated user. So, run it unprivileged. */
 
             // Create a new API object.
             HelloWorldAPI api = new HelloWorldAPI(@"C:\Windows\System32");
@@ -217,7 +217,7 @@ namespace HelloWorld.Tests
         public void StoreData_Container_UnauthorizedAccess()
         {
             /* Note - This unauthorized access test method will fail if run under
-             * an adminstrator or higher elevated user. So, run them unprivileged. */
+             * an adminstrator or higher elevated user. So, run it unprivileged. */
 
             // Create a new API object.
             HelloWorldAPI api = new HelloWorldAPI(@"C:\Windows\System32");

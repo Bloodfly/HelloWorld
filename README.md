@@ -6,7 +6,13 @@ A robust and extensible API based on the classic "Hello World" program; this API
  - Print a custom greeting without encryption
  - Print a custom greeting with encryption and a set key length
  - Store data into a plaintext file, encrypted file, or a database
-
+ - Print to the Console using predefined styles such as:
+   - Message accents
+   - Message timestamps
+   - Color the entire printed line
+   - Styles include:
+     - None
+     - 
 # Requirements
  - Windows 7 SP1 & Higher
  - .NET Framework 4.6.1

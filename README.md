@@ -25,6 +25,7 @@ A robust and extensible API based on the classic "Hello World" program; this API
    - Convert a byte array into a Base64 encoded string
    - Convert a char array into a Base64 encoded string
    - Convert a Base64 encoded string into a string
+   
 # Requirements
  - Windows 7 SP1 & Higher
  - .NET Framework 4.6.1
